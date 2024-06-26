@@ -20,16 +20,16 @@ public class Principal {
     public void preencherCampo(){
 
         WebElement nome = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("form-field-nome")));
-        nome.sendKeys("Vitor Alicer");
+        nome.sendKeys("Fulano");
 
         WebElement email = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("form-field-email")));
-        email.sendKeys("vitoralicer@gmail.com");
+        email.sendKeys("juninho@gmail.com");
 
         WebElement telefone = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("form-field-telefone")));
-        telefone.sendKeys("51985050680");
+        telefone.sendKeys("59845645");
 
         WebElement cpf = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("form-field-cpf")));
-        cpf.sendKeys("85916803087");
+        cpf.sendKeys("984231575");
 
         WebElement cidade = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("form-field-cidade")));
         cidade.sendKeys("Porto Alegre");
